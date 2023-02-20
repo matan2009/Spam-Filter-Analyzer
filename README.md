@@ -19,14 +19,14 @@ Running example: spam_filter_analyzer.py C:\Users\user\Desktop\spam_assassin\mai
 4.  For each mail the script sends a request for the spam service, and stores the response (The score it got 	from the spam filtering service).
 5.  If the score is greater (or equal) to the input threshold, it will continue to extract more interesting 	metadata from the spam email.
 6.  The following fields (metadata) will be added for each spam email to the result file:
-  - mail file name
-  -	mail subject
-  -	sender name
-  -	sender address
-  -	recipient address
-  -	spam-assassin score
-  -	number of attachments
-  -	attachments file names
-  -	list of links
-  -	number of links
-  -	the date that the mail was received
+    - mail file name
+    -	mail subject
+    -	sender name
+    -	sender address
+    -	recipient address
+    -	spam-assassin score
+    -	number of attachments
+    -	attachments file names
+    -	list of links
+    -	number of links
+    -	the date that the mail was received
